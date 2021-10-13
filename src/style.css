@@ -12,7 +12,6 @@
     transition: all 0.1s ease-in-out;
   }
   
-  /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
   html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
@@ -214,7 +213,7 @@
     min-height: 2vw;
     font-size: 1.2vw;
     line-height: 1.2vw;
-    background-color: #525252;
+    background-color: #1d0f0f;
     color: #f5f5f5;
     border: none;
     outline: none;
@@ -341,8 +340,8 @@
     padding: 15px;
     height: 200px;
     font: 2.2rem "Courier New", "Courier", monospace;
-    background-color: white;
-    border: 5px solid #FFDB6B;
+    background-color: rgb(212, 168, 168);
+    border: 5px solid #6bff77;
     resize: none;
   }
   .text, .text:focus {

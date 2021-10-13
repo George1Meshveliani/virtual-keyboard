@@ -4,7 +4,7 @@ import Keyboard from './Modules/Keyboard.js';
 window.onload = () => {
   /* Add comment, how to use app and how it was made */
   const hint = document.createElement('p');
-  hint.innerHTML = '<strong>Сменить раскладку: left Ctrl + left Shift</strong>. Сделано на&nbsp;Mac&nbsp;OS, расположение кнопок может отличаться от&nbsp;компьютера с&nbsp;Windows (например, Cmd заменяет Win, нет клавиши Del). Если на&nbsp;Windows что-то не&nbsp;работает, пожалуйста, напишите мне в&nbsp;телеграм <strong>hallovarvara</strong> или дискорд <strong>Varya Dev. (@hallovarvara)</strong>';
+  hint.innerHTML = '<strong> Click left Ctrl + left Shift to change languages</strong>.';
   document.body.append(hint);
 
   /* Add textarea for to output symbols */
