@@ -1,4 +1,4 @@
-import create from './util/create.js';
+import create from './utils/create';
 
 export default class Key {
   constructor({ small, shift, code }) {
