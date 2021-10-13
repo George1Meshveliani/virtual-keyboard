@@ -1,5 +1,5 @@
-import KEYS from './keys.js';
-import Keyboard from './Modules/Keyboard.js';
+import KEYS from './keys';
+import Keyboard from './Modules/Keyboard';
 
 window.onload = () => {
   /* Add comment, how to use app and how it was made */
