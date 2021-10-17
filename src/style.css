@@ -1,0 +1,356 @@
+.text, button, .keyboard {
+    border-radius: 0.4vw;
+  }
+  
+  .text, .keyboard, p {
+    box-sizing: border-box;
+    margin: 30px auto;
+    width: 90%;
+  }
+  
+  button {
+    transition: all 0.1s ease-in-out;
+  }
+  
+  html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  main {
+    display: block;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+  }
+  
+  pre {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  
+  a {
+    background-color: transparent;
+  }
+  
+  abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted;
+  }
+  
+  b, strong {
+    font-weight: bolder;
+  }
+  
+  code, kbd, samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+  }
+  
+  small {
+    font-size: 80%;
+  }
+  
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  img {
+    border-style: none;
+  }
+  
+  button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+  }
+  
+  button, input {
+    overflow: visible;
+  }
+  
+  button, select {
+    text-transform: none;
+  }
+  
+  [type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+  }
+  
+  [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal;
+  }
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  [type=checkbox], [type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  [type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  [type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+  }
+  
+  [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit;
+  }
+  
+  details {
+    display: block;
+  }
+  
+  summary {
+    display: list-item;
+  }
+  
+  template {
+    display: none;
+  }
+  
+  [hidden] {
+    display: none;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    font: 1.6rem "Verdana", sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  p {
+    max-width: 760px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    color: #929292;
+  }
+  
+  .keyboard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 5px 5px 10px;
+    margin-top: 0;
+    background-color: #DDDDDD;
+    box-shadow: inset 0 -0.4vw #c4c4c4, inset 0 -0.6vw white;
+  }
+  
+  .keyboard_row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    flex: 1 0;
+    vertical-align: bottom;
+    display: inline-block;
+    margin: 0.4vw;
+    padding: 1.6vw 2vw 1.8vw;
+    min-width: 3vw;
+    min-height: 2vw;
+    font-size: 1.2vw;
+    line-height: 1.2vw;
+    background-color: #1d0f0f;
+    color: #f5f5f5;
+    border: none;
+    outline: none;
+    box-shadow: inset 0 -0.4vw black, inset 0 -0.6vw #666666;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #666666;
+  }
+  button.active {
+    box-shadow: inset 0 0 10px black;
+    background-color: #333333;
+    color: #666666;
+  }
+  
+  .tab,
+  .backspace,
+  .del,
+  .shift,
+  .capslock,
+  .enter,
+  .space,
+  .ctrl,
+  .opt,
+  .cmd {
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-transform: lowercase;
+    letter-spacing: 0.05vw;
+  }
+  
+  .enter,
+  .del,
+  .backspace {
+    text-align: right;
+  }
+  
+  .tab,
+  .shift_left,
+  .capslock {
+    text-align: left;
+  }
+  
+  .arrow {
+    flex-grow: 0.5;
+  }
+  
+  .ctrl, .cmd, .alt {
+    flex-grow: 2;
+  }
+  
+  .tab, .del {
+    flex-grow: 3;
+  }
+  
+  .backspace {
+    flex-grow: 6;
+  }
+  
+  .capslock {
+    flex-grow: 7;
+  }
+  
+  .enter {
+    flex-grow: 8;
+  }
+  
+  .shift {
+    flex-grow: 9;
+  }
+  
+  .shift_right {
+    flex-grow: 10.5;
+  }
+  
+  .space {
+    flex-grow: 25;
+  }
+  
+  .shift_right,
+  .ctrl_right {
+    text-align: right;
+  }
+  
+  @media (min-width: 1024px) {
+    .keyboard {
+      width: 920px;
+      border-radius: 4px;
+      box-shadow: inset 0 -4px #c4c4c4, inset 0 -6px white;
+    }
+  
+    button {
+      margin: 4px;
+      padding: 16px 21px 18px;
+      min-width: unset;
+      min-height: unset;
+      font-size: 12px;
+      line-height: 12px;
+      border-radius: 4px;
+      box-shadow: inset 0 -4px black, inset 0 -6px #666666;
+    }
+  
+    .tab,
+  .backspace,
+  .del,
+  .shift,
+  .capslock,
+  .enter,
+  .space,
+  .ctrl,
+  .opt,
+  .cmd {
+      padding-left: 10px;
+      padding-right: 10px;
+      letter-spacing: 0.05rem;
+    }
+  
+    .shift_right {
+      flex-grow: 11.9;
+    }
+  }
+  .text {
+    display: block;
+    padding: 15px;
+    height: 200px;
+    font: 2.2rem "Courier New", "Courier", monospace;
+    background-color: rgb(212, 168, 168);
+    border: 5px solid #6bff77;
+    resize: none;
+  }
+  .text, .text:focus {
+    outline: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .text {
+      max-width: 920px;
+      border-radius: 4px;
+    }
+  }
