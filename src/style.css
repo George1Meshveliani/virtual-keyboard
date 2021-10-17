@@ -227,6 +227,7 @@
     box-shadow: inset 0 0 10px black;
     background-color: #333333;
     color: #666666;
+    transform: scale(3.1);
 
   }
 
