@@ -98,9 +98,11 @@ export default class {
       switch (happening) {
         case 'keydown':
         case 'mousedown':
-          if (!this.isPressed(code)) this.pressed.push(code); break;
+          if (!this.isPressed(code)) this.pressed.push(code); 
+          break;
         case 'keyup':
-          if (this.isPressed(code)) this.pressed.splice(this.pressed.indexOf(code), 1); break;
+          if (this.isPressed(code)) this.pressed.splice(this.pressed.indexOf(code), 1); 
+          break;
         case 'click':
           if (this.isPressed(code)) {
             this.pressed.splice(this.pressed.indexOf(code), 1);
