@@ -4,15 +4,15 @@ import Keyboard from './Modules/Keyboard.js';
 window.onload = () => {
   const hint = document.createElement('p');
   hint.innerHTML = '<strong> Click left Ctrl + left Shift to change languages</strong>.';
-  document.body.append(hint);
+  document.body.appendChild(hint);
 
   const textarea = document.createElement('textarea');
   textarea.classList.add('text');
-  document.body.append(textarea);
+  document.body.appendChild(textarea);
 
   const keyboardView = document.createElement('div');
   keyboardView.classList.add('keyboard');
-  document.body.append(keyboardView);
+  document.body.appendChild(keyboardView);
 
   const keyboard = new Keyboard(KEYS, keyboardView);
 
