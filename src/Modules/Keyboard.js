@@ -1,4 +1,4 @@
-export default class {
+export Leyboard class {
   constructor(keys, view) {
     this.language = this.getLanguage();
     this.keys = keys;
